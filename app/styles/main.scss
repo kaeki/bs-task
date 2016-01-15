@@ -5,5 +5,27 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // endbower
 
 // oma scss alkaa
-
+#bg{
+	background: url("kuva.jpg");
+	color: white;
+	ul{
+		float:right;
+	}
+}
+.navbar, .jumbotron{
+	background-color: transparent;
+	border: none;
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
 // oma scss päättyy
